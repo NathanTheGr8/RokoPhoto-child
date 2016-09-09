@@ -22,7 +22,13 @@
 }
 
 .grid figure figcaption {
-    font-size: 2.5em;
+    font-size: 2em;
+}
+
+@media (max-width: 767px) {
+  .grid figure figcaption {
+      display: hidden;
+  }
 }
 
 
@@ -53,9 +59,38 @@
     font-size: 20px;
 }
 
+/** Responsive section*/
 @media (min-width:768px) { 
     .navbar-default.navbar-shrink .navbar-brand img {
         height: 55px;
         width: auto;
     }
+}
+
+
+
+@media (max-width: 560px) { 
+    #site-navigation {
+        position: fixed;
+    }
+
+}
+
+
+/* MAX 460px */
+@media (max-width: 460px) { 
+  .grid figure p {
+      opacity: 0;
+  }
+  .carousel-control.right {
+      opacity: 0;
+  }
+  .carousel-control.left {
+      opacity: 0;
+  }
+
+}
+/* MAX 320px */
+@media (max-width: 340px) { 
+   
 }

@@ -51,7 +51,7 @@ $rokophoto_portfolio_display_settings = get_theme_mod('rokophoto_portfolio_displ
 				<figcaption> <!-- Caption -->
 					<div class="effect-portfolio-inner-wrap">
 						<div class="effect-portfolio-inner">
-							<!-- <h2><?php the_title(); ?></h2> -->
+							
 							<?php the_excerpt(); ?>
 						</div>
 					</div>					
